@@ -1,0 +1,116 @@
+:root {
+    --color-white: #fff;
+    --color-grey: #c4c4c4;
+}
+
+  /* CSS Reset */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    display: inline-block;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family: "Courier New", Courier, monospace;
+  }
+/* code css */
+  
+.content{
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#444cf7 0.6000000000000001px, #e5e5f7 0.6000000000000001px);
+    background-size: 1.2rem 1.2rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.carde{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    box-shadow: 2px 2px 6px 2px rgba(169, 168, 168, 0.774);
+}
+.head{
+    
+
+    width: 350px;
+    height: 100px;
+    background-color: #e5e5f7;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+}
+.my-img{
+    border: 5px white solid;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 120px; 
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.midel{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -60px;
+    
+}
+.midel h1{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.bottm{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-top: 2px rgba(190, 189, 189, 0.799) solid;
+    flex: 1;
+    margin: 20px;
+    padding-top: 10px;
+}
+.facbook{
+    border-right: 2px gainsboro solid;
+    text-align: center;
+    padding-right: 5px;
+}
+.lenedin{
+    border-right: 2px gainsboro solid;
+    padding-left: 5px;
+    padding-right: 10px;
+    text-align: center;
+}
+.gethop{
+    text-align: center;
+}
